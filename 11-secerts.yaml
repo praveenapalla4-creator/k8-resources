@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: secerts-demo
+type: Opaque
+#data shoud be encoded
+data:
+   username:""
+   password:""
+
+  
