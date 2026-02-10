@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
    name: frontend
-   lables:
+   labels:
       project: roboshop
       component: frontend
       environment: dev
