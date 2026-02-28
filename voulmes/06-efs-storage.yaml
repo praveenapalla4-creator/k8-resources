@@ -1,0 +1,12 @@
+kind: StorageClass
+apiVersion: storage.k8s.io/v1
+metadata:
+  name: robsohop-efs
+provisioner: efs.csi.aws.com
+parameters:
+  provisioningMode: efs-ap
+  fileSystemId: "efs id we craeted ina ws"
+  directoryPerms: "700"
+  
+  basePath: "/roboshop" # optional
+  
